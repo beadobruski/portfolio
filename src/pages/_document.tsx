@@ -41,16 +41,14 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-br">
         <Head>
+          <meta charSet="utf-8" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-
           <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
             rel="stylesheet"
           />
 
-          <link rel="ico" href="https://rocketseat.com.br/favicon.ico" />
-
-          <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         </Head>
         <body>
