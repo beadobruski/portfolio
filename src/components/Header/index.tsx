@@ -1,18 +1,15 @@
 import NavLink from './NavLink';
-import { Container, Wrapper } from './styles';
-
-import logoHeader from '../../assets/logo-header.png';
+import { Container } from './styles';
+import upImage from '../../assets/up-image.webp';
 
 export function Header() {
   return (
     <Container>
-      <img src={logoHeader} alt="" />
-      <Wrapper>
-        <ul>
-          <NavLink title="Home" path="/" />
-          <NavLink title="Projetos" path="/projetos" />
-        </ul>
-      </Wrapper>
+      <img src={upImage} alt="" />
+      <ul>
+        <NavLink title="Home" path="/" />
+        <NavLink title="Projetos" path="/projetos" />
+      </ul>
     </Container>
   );
 }

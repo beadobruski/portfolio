@@ -9,8 +9,7 @@ export const Container = styled.header`
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 33rem;
+  justify-content: center;
   height: 4rem;
 
   ul {
@@ -20,12 +19,8 @@ export const Container = styled.header`
   }
 
   img {
-    width: 3rem;
+    position: absolute;
   }
-`;
-
-export const Wrapper = styled.div`
-  display: flex;
 `;
 
 export const NavLinkContainer = styled.li<NavLinkProps>`
