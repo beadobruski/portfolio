@@ -27,11 +27,11 @@ export default createGlobalStyle`
   body {
     background: ${props => props.theme.background};
     font: 400 1rem 'Roboto', sans-serif;
+    overflow-x: hidden;
   }
 
   img {
     width: 100%;
-    max-width: 100%;
   }
 
   ul {
