@@ -37,6 +37,7 @@ export const NavLinkContainer = styled.li<NavLinkProps>`
       color: ${props =>
         props.isActive
           ? lighten(0.05, props.theme.primary)
-          : lighten(0.2, props.theme.secondary)}
+          : lighten(0.2, props.theme.secondary)};
+    }
   }
 `;
