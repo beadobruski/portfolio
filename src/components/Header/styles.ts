@@ -20,6 +20,7 @@ export const Container = styled.header`
 
   img {
     position: absolute;
+    z-index: -1;
   }
 `;
 
