@@ -6,6 +6,7 @@ export function Social() {
   return (
     <Container>
       <SectionTitle title="Redes sociais" description=" let's talk!" />
+
       <section>
         <SocialItem
           social="LinkedIn"
@@ -14,16 +15,17 @@ export function Social() {
           link="https://www.linkedin.com/in/beatrizdobruski/"
         />
         <SocialItem
-          social="GitHub"
-          title="beadobruski/"
-          description="Todos meus projetos pessoais são encontrados, códigos e ferramentas que já utilizei alguma vez como dev."
-          link="https://github.com/beadobruski/"
-        />
-        <SocialItem
           social="Discord"
           title="beazi#7708"
           description="Quer conversar sobre algum projeto ou propostas? Me manda uma mensagem no Discord!"
           link="https://linktr.ee/beadobruski"
+        />
+
+        <SocialItem
+          social="GitHub"
+          title="beadobruski/"
+          description="Todos meus projetos pessoais são encontrados, códigos e ferramentas que já utilizei alguma vez como dev."
+          link="https://github.com/beadobruski/"
         />
       </section>
     </Container>
