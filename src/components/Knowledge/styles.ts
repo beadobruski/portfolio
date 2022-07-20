@@ -12,6 +12,8 @@ export const Container = styled.section`
     @media (max-width: 1000px) {
       width: 150%;
       left: -5rem;
+      display: none;
+      visibility: hidden;
     }
 
     @media (max-width: 700px) {
@@ -34,7 +36,8 @@ export const Container = styled.section`
     gap: 8rem;
 
     @media (max-width: 1000px) {
-      gap: 3rem;
+      gap: 2rem;
+      margin-bottom: 5rem;
     }
 
     @media (max-width: 700px) {
