@@ -7,6 +7,7 @@ export const Container = styled.section`
     width: 100%;
     margin-top: 7rem;
     display: flex;
+    justify-content: center;
     gap: 1.5rem;
 
     padding-bottom: 8rem;
