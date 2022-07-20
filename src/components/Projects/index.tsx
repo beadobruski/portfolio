@@ -3,33 +3,38 @@ import { SectionTitle } from '../SectionTitle';
 import { ProjectItem } from './ProjectItem';
 import { Container } from './styles';
 
-export function Projects() {
+interface IProjetos {
+  slug: string;
+  title: string;
+  type: string;
+  description: string;
+  link: string;
+  thumbnail: string;
+}
+
+interface ProjectsProps {
+  projetos: IProjetos[];
+}
+
+export function Projects({ projetos }: ProjectsProps) {
   return (
     <Container>
       <SectionTitle title="Ultímos projetos" />
+
       <section>
-        <ProjectItem
-          title="Projeto 01"
-          image="https://clickpetroleoegas.com.br/wp-content/uploads/2021/06/natureza-na-construcao-civil.jpg"
-          type="Website"
-          slug="teste"
-        />
-        <ProjectItem
-          title="Projeto 02"
-          image="https://clickpetroleoegas.com.br/wp-content/uploads/2021/06/natureza-na-construcao-civil.jpg"
-          type="Website"
-          slug="teste"
-        />
-        <ProjectItem
-          title="Projeto 03"
-          image="https://clickpetroleoegas.com.br/wp-content/uploads/2021/06/natureza-na-construcao-civil.jpg"
-          type="Website"
-          slug="teste"
-        />
+        {projetos.slice(0, 3).map(projeto => (
+          <ProjectItem
+            key={projeto.slug}
+            title={projeto.title}
+            image={projeto.thumbnail}
+            type={projeto.type}
+            slug={projeto.slug}
+          />
+        ))}
       </section>
 
       <button type="button">
-        <Link href="/projects">
+        <Link href="/projetos">
           <a>ver todos os projetos</a>
         </Link>
       </button>
