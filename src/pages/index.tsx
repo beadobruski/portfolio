@@ -39,7 +39,7 @@ export default function Home({ projetos }: HomeProps) {
 
         <meta
           name="description"
-          content="Me chamo Beatriz Dobruski. Sou uma desenvolvedora Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
+          content="Me chamo Beatriz Dobruski. Sou uma desenvolvedora Front-end que estuda há um ano e 6 meses e faz faculdade de Análise e Desenvolvimento de Sistemas, 4 período. Tenho experiências com projetos pessoais em React, Typescript, styled-components, entre outros, nos quais você pode conferir no meu Github e aqui nesse portfólio!"
         />
         <meta property="og:image" content="/ogimage.png" />
         <meta property="og:image:secure_url" content="/ogimage.png" />
@@ -47,7 +47,7 @@ export default function Home({ projetos }: HomeProps) {
         <meta name="twitter:image:src" content="/ogimage.png" />
         <meta
           property="og:description"
-          content="Me chamo Beatriz Dobruski. Sou uma desenvolvedora Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
+          content="Me chamo Beatriz Dobruski. Sou uma desenvolvedora Front-end que estuda há um ano e 6 meses e faz faculdade de Análise e Desenvolvimento de Sistemas, 4 período. Tenho experiências com projetos pessoais em React, Typescript, styled-components, entre outros, nos quais você pode conferir no meu Github e aqui nesse portfólio!"
         />
       </Head>
 

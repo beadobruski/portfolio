@@ -122,8 +122,8 @@ export const CodeItem = styled.pre`
     margin-left: 1rem;
   }
 
-  span.purple {
-    color: ${({ theme }) => theme.textLight};
+  span.gray {
+    color: ${({ theme }) => theme.gray};
   }
 
   span.blue {
