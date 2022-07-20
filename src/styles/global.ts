@@ -25,7 +25,11 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${props => props.theme.background};
+    background-color: #ceb9fa;
+    opacity: 1;
+    background-image: radial-gradient(circle at center center, #ffffff, #ceb9fa), repeating-radial-gradient(circle at center center, #ffffff, #ffffff, 35px, transparent 70px, transparent 35px);
+    background-blend-mode: multiply;
+
     font: 400 1rem 'Roboto', sans-serif;
     overflow-x: hidden;
   }
