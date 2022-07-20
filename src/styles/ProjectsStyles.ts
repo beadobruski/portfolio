@@ -19,6 +19,9 @@ export const ProjectsContainer = styled.div`
     @media (max-width: 700px) {
       width: 200%;
       left: -15rem;
+
+      display: none;
+      visibility: hidden;
     }
 
     @media (max-width: 498px) {
