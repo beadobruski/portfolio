@@ -9,6 +9,8 @@ import Document, {
 
 import { ServerStyleSheet } from 'styled-components';
 
+import favicon from '../../public/favicon.ico';
+
 export default class MyDocument extends Document {
   static async getInitialProps(
     ctx: DocumentContext
@@ -42,6 +44,8 @@ export default class MyDocument extends Document {
       <Html lang="pt-br">
         <Head>
           <meta charSet="utf-8" />
+
+          <link rel="shortcut icon" href={favicon} />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
