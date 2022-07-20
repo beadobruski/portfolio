@@ -32,6 +32,7 @@ export const ItemContainer = styled.div`
     align-items: flex-start;
     justify-content: flex-start;
 
+    max-width: 19rem;
     padding: 1rem;
     padding-top: 2.5rem;
     height: 20rem;
@@ -112,6 +113,7 @@ export const ItemContainer = styled.div`
     > div {
       height: auto;
       padding: 2rem;
+      max-width: 100%;
 
       h1 {
         font-size: 2rem;
