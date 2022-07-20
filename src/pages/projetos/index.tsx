@@ -7,7 +7,7 @@ import { Header } from '../../components/Header';
 import { ProjectPageItem } from '../../components/ProjectPageItem';
 import { ProjectsContainer } from '../../styles/ProjectsStyles';
 
-import picture from '../../assets/projetos.webp';
+import bottomPicture from '../../assets/projetos.webp';
 
 interface IProjetos {
   slug: string;
@@ -55,7 +55,10 @@ export default function Projetos({ projetos }: ProjectProps) {
         ))}
       </main>
 
-      <img src={picture} alt="" />
+      <img
+        src={bottomPicture}
+        alt="Imagem animada de uma prancheta e um pincel atrás."
+      />
     </ProjectsContainer>
   );
 }

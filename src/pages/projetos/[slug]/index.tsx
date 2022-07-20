@@ -44,7 +44,10 @@ export default function Projeto({ projeto }: ProjectProps) {
         <meta property="og:description" content={projeto.description} />
       </Head>
 
-      <img src={bottomImage} alt="" />
+      <img
+        src={bottomImage}
+        alt="Imagem animada de uma prancheta e um pincel atrás."
+      />
       <Header />
       <ProjectBanner
         title={projeto.title}

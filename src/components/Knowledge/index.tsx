@@ -5,7 +5,7 @@ import { SectionTitle } from '../SectionTitle';
 import { KnowledgeItem } from './KnowledgeItem';
 import { Container } from './styles';
 
-import picture from '../../assets/beadev.webp';
+import bottomPicture from '../../assets/beadev.webp';
 
 export function Knowledge() {
   return (
@@ -22,7 +22,10 @@ export function Knowledge() {
         <KnowledgeItem title="React" icon={<FaReact />} />
       </section>
 
-      <img src={picture} alt="" />
+      <img
+        src={bottomPicture}
+        alt="Imagem de uma mulher mostrando informações animadas."
+      />
     </Container>
   );
 }

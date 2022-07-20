@@ -5,7 +5,10 @@ import picture from '../../assets/person.webp';
 export function HomeHero() {
   return (
     <Container data-aos="fade-up">
-      <img src={picture} alt="" />
+      <img
+        src={picture}
+        alt="Foto animada de uma mulher sentada em frente a um computador, no qual a tela do computador contém dois ícones: ícone do Typescript, azul e o ícone do Javascript, amarelo"
+      />
 
       <div>
         <TextContainer>
