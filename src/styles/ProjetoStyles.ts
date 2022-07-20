@@ -17,9 +17,10 @@ export const ProjetoContainer = styled.div`
   }
 
   p {
+    font-family: 'Roboto', sans-serif;
     color: ${({ theme }) => theme.gray};
     font-size: 1.3rem;
-    font-weight: 300;
+
     text-align: justify;
   }
 

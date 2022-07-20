@@ -5,7 +5,7 @@ import { SectionTitle } from '../SectionTitle';
 import { KnowledgeItem } from './KnowledgeItem';
 import { Container } from './styles';
 
-import picture from '../../assets/beadev.png';
+import picture from '../../assets/beadev.webp';
 
 export function Knowledge() {
   return (

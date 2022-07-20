@@ -1,3 +1,4 @@
+import { darken } from 'polished';
 import styled from 'styled-components';
 
 interface ContainerProps {
@@ -34,7 +35,10 @@ export const Container = styled.div<ContainerProps>`
       z-index: 2;
       h1 {
         font-family: 'Roboto', sans-serif;
-        color: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.gray};
+        background: #fff;
+        border-radius: 0.2rem 0.5rem;
+        opacity: 0.9;
       }
       h2 {
         color: ${({ theme }) => theme.backgroundLight};
@@ -49,7 +53,7 @@ export const Container = styled.div<ContainerProps>`
       bottom: 0;
       width: 100%;
       height: 100%;
-      background: ${({ theme }) => theme.gray};
+      background: ${({ theme }) => darken(0.13, theme.background)};
       opacity: 0.7;
       transition: 0.4s;
     }

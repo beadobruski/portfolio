@@ -7,7 +7,7 @@ import { Header } from '../../../components/Header';
 import { ProjectBanner } from '../../../components/ProjectBanner';
 import { ProjetoContainer } from '../../../styles/ProjetoStyles';
 
-import bottomImage from '../../../assets/projetos.png';
+import bottomImage from '../../../assets/projetos.webp';
 import { LoadingScreen } from '../../../components/LoadingScreen';
 
 interface IProjetos {

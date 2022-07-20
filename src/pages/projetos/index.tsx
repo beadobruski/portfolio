@@ -6,7 +6,7 @@ import { Header } from '../../components/Header';
 import { ProjectPageItem } from '../../components/ProjectPageItem';
 import { ProjectsContainer } from '../../styles/ProjectsStyles';
 
-import picture from '../../assets/beadev.png';
+import picture from '../../assets/projetos.webp';
 
 interface IProjetos {
   slug: string;

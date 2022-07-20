@@ -95,6 +95,7 @@ export const ProjectContainer = styled.div<ProjectProps>`
   > section {
     width: 50rem;
     height: 100%;
+    border-radius: 0.8rem;
     background: url(${props => props.imgUrl}) no-repeat center;
     background-size: cover;
     position: relative;
@@ -103,9 +104,10 @@ export const ProjectContainer = styled.div<ProjectProps>`
       position: absolute;
       width: 100%;
       height: 100%;
-      background-color: ${({ theme }) => theme.backgroundLight};
+      background-color: ${({ theme }) => darken(0.13, theme.background)};
       opacity: 0.75;
       transition: 0.5s;
+      border-radius: 0.8rem;
     }
 
     > div.text {
@@ -116,9 +118,13 @@ export const ProjectContainer = styled.div<ProjectProps>`
       width: fit-content;
 
       h1 {
-        color: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.gray};
         font-size: 2.5rem;
         text-shadow: -4px 5px 22px #9f8f8f;
+
+        background: ${({ theme }) => theme.gradient};
+        border-radius: 0.2rem 0.5rem 0.2rem 0.5rem;
+        padding: 0 0.8rem;
       }
 
       h2 {
@@ -126,6 +132,16 @@ export const ProjectContainer = styled.div<ProjectProps>`
         font-size: 2rem;
         font-weight: 300;
         text-shadow: -4px 5px 22px #9f8f8f;
+      }
+
+      @media (max-width: 700px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        h2 {
+          font-size: 1.5rem;
+        }
       }
     }
   }

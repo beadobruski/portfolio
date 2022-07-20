@@ -20,14 +20,22 @@ export const Container = styled.div<ContainerProps>`
   > section {
     z-index: 2;
     h1 {
-      color: ${({ theme }) => theme.primary};
-      font-size: 3rem;
+      font-family: 'Roboto', sans-serif;
+      color: ${({ theme }) => theme.gray};
+      font-size: 2.5rem;
+      text-shadow: -4px 5px 22px #9f8f8f;
+
+      background: ${({ theme }) => theme.gradient};
+      border-radius: 0.2rem 0.5rem 0.2rem 0.5rem;
+      padding: 0 0.8rem;
     }
 
     h2 {
-      color: ${({ theme }) => theme.backgroundLight};
+      font-family: 'Roboto', sans-serif;
+      color: ${({ theme }) => theme.secondary};
       font-size: 2rem;
       font-weight: 300;
+      text-shadow: -4px 5px 22px #9f8f8f;
     }
   }
 
