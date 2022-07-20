@@ -1,3 +1,4 @@
+import { darken } from 'polished';
 import styled from 'styled-components';
 
 interface ContainerProps {
@@ -46,7 +47,7 @@ export const Container = styled.div<ContainerProps>`
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: ${({ theme }) => theme.gradientReverse};
+    background: ${({ theme }) => darken(0.15, theme.background)};
     opacity: 0.7;
     transition: 0.5s;
     border-radius: 0.8rem;

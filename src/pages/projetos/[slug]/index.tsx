@@ -41,7 +41,7 @@ export default function Projeto({ projeto }: ProjectProps) {
       />
 
       <main>
-        <p>{projeto.description}</p>
+        <p data-aos="fade-right">{projeto.description}</p>
 
         <button type="button">
           <a href={projeto.link} target="_blank" rel="noreferrer">

@@ -15,7 +15,7 @@ export function ProjectPageItem({
   slug
 }: ProjectItemProps) {
   return (
-    <Container imgUrl={imgUrl}>
+    <Container imgUrl={imgUrl} data-aos="fade-right">
       <Link href={`/projetos/${slug}`}>
         <a>
           <div className="overlay" />

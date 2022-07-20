@@ -1,13 +1,17 @@
 import Prismic from '@prismicio/client';
 import { GetStaticProps } from 'next';
-import { HomeContainer } from '../styles/HomeStyles';
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
+import { getPrismicClient } from '../services/prismic';
+
+import { HomeContainer } from '../styles/HomeStyles';
 import { Header } from '../components/Header';
 import { HomeHero } from '../components/HomeHero';
 import { Social } from '../components/Social';
 import { Projects } from '../components/Projects';
 import { Knowledge } from '../components/Knowledge';
-import { getPrismicClient } from '../services/prismic';
 
 interface IProjetos {
   slug: string;
@@ -23,6 +27,10 @@ interface HomeProps {
 }
 
 export default function Home({ projetos }: HomeProps) {
+  useEffect(() => {
+    Aos.init({ duration: 1500 });
+  }, []);
+
   return (
     <HomeContainer>
       <Header />

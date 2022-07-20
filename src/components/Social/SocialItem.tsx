@@ -9,7 +9,7 @@ interface SocialProps {
 
 export function SocialItem({ social, title, description, link }: SocialProps) {
   return (
-    <ItemContainer>
+    <ItemContainer data-aos="fade-up">
       <div>
         <h1>{social}</h1>
 
