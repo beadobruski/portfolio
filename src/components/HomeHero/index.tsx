@@ -7,7 +7,7 @@ export function HomeHero() {
     <Container data-aos="fade-up">
       <img
         src={picture}
-        alt="Foto animada de uma mulher sentada em frente a um computador, no qual a tela do computador contém dois ícones: ícone do Typescript, azul e o ícone do Javascript, amarelo"
+        alt="Foto animada de uma mulher sentada em frente a um computador, no qual a tela do computador contém dois ícones: ícone do Typescript, azul e o ícone do Javascript, amarelo. Créditos: Drawkit"
       />
 
       <div>

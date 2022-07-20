@@ -46,7 +46,7 @@ export default function Projeto({ projeto }: ProjectProps) {
 
       <img
         src={bottomImage}
-        alt="Imagem animada de uma prancheta e um pincel atrás."
+        alt="Imagem animada de uma prancheta e um pincel atrás. Créditos: Drawkit"
       />
       <Header />
       <ProjectBanner

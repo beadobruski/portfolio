@@ -23,7 +23,7 @@ export function Knowledge() {
 
       <img
         src={bottomPicture}
-        alt="Imagem de uma mulher mostrando informações animadas."
+        alt="Imagem de uma mulher mostrando informações animadas. Créditos: Drawkit"
       />
     </Container>
   );
